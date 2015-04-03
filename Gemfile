@@ -44,6 +44,10 @@ end
 group :test do
 	gem 'capybara'
   gem 'factory_girl_rails'
+
+  #install Cucumber
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 group :production do
