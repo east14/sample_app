@@ -27,4 +27,8 @@ class User < ActiveRecord::Base
 	def create_remember_token
 		self.remember_token = SecureRandom.urlsafe_base64
 	end
+	
+	def user_params
+		params.require(:user).permit(:name, :email, :password, :password_confirmation)
+	end
 end

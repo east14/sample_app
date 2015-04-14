@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'bootstrap-sass', '3.3.3'
 gem 'bcrypt-ruby'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :assets do
 	gem 'sass-rails', '~> 5.0'
