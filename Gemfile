@@ -8,6 +8,8 @@ gem 'bcrypt-ruby'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'rspec-its'
+gem 'protected_attributes'
 
 group :assets do
 	gem 'sass-rails', '~> 5.0'
